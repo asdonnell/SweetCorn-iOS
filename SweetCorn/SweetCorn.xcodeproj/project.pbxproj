@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100C7501E65C2F00038DAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C74F1E65C2F00038DAA1 /* AppDelegate.swift */; };
+		A100C7521E65C2F00038DAA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C7511E65C2F00038DAA1 /* ViewController.swift */; };
+		A100C7551E65C2F00038DAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100C7531E65C2F00038DAA1 /* Main.storyboard */; };
+		A100C7571E65C2F00038DAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100C7561E65C2F00038DAA1 /* Assets.xcassets */; };
+		A100C75A1E65C2F00038DAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100C7581E65C2F00038DAA1 /* LaunchScreen.storyboard */; };
+		A100C7651E65C2F00038DAA1 /* SweetCornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C7641E65C2F00038DAA1 /* SweetCornTests.swift */; };
+		A100C7701E65C2F00038DAA1 /* SweetCornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C76F1E65C2F00038DAA1 /* SweetCornUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A100C7611E65C2F00038DAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A100C7441E65C2F00038DAA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A100C74B1E65C2F00038DAA1;
+			remoteInfo = SweetCorn;
+		};
+		A100C76C1E65C2F00038DAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A100C7441E65C2F00038DAA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A100C74B1E65C2F00038DAA1;
+			remoteInfo = SweetCorn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A100C74C1E65C2F00038DAA1 /* SweetCorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetCorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100C74F1E65C2F00038DAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A100C7511E65C2F00038DAA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A100C7541E65C2F00038DAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A100C7561E65C2F00038DAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A100C7591E65C2F00038DAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A100C75B1E65C2F00038DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A100C7601E65C2F00038DAA1 /* SweetCornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetCornTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100C7641E65C2F00038DAA1 /* SweetCornTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetCornTests.swift; sourceTree = "<group>"; };
+		A100C7661E65C2F00038DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A100C76B1E65C2F00038DAA1 /* SweetCornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetCornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100C76F1E65C2F00038DAA1 /* SweetCornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetCornUITests.swift; sourceTree = "<group>"; };
+		A100C7711E65C2F00038DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A100C7491E65C2F00038DAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100C75D1E65C2F00038DAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100C7681E65C2F00038DAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A100C7431E65C2F00038DAA1 = {
+			isa = PBXGroup;
+			children = (
+				A100C74E1E65C2F00038DAA1 /* SweetCorn */,
+				A100C7631E65C2F00038DAA1 /* SweetCornTests */,
+				A100C76E1E65C2F00038DAA1 /* SweetCornUITests */,
+				A100C74D1E65C2F00038DAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A100C74D1E65C2F00038DAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A100C74C1E65C2F00038DAA1 /* SweetCorn.app */,
+				A100C7601E65C2F00038DAA1 /* SweetCornTests.xctest */,
+				A100C76B1E65C2F00038DAA1 /* SweetCornUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A100C74E1E65C2F00038DAA1 /* SweetCorn */ = {
+			isa = PBXGroup;
+			children = (
+				A100C74F1E65C2F00038DAA1 /* AppDelegate.swift */,
+				A100C7511E65C2F00038DAA1 /* ViewController.swift */,
+				A100C7531E65C2F00038DAA1 /* Main.storyboard */,
+				A100C7561E65C2F00038DAA1 /* Assets.xcassets */,
+				A100C7581E65C2F00038DAA1 /* LaunchScreen.storyboard */,
+				A100C75B1E65C2F00038DAA1 /* Info.plist */,
+			);
+			path = SweetCorn;
+			sourceTree = "<group>";
+		};
+		A100C7631E65C2F00038DAA1 /* SweetCornTests */ = {
+			isa = PBXGroup;
+			children = (
+				A100C7641E65C2F00038DAA1 /* SweetCornTests.swift */,
+				A100C7661E65C2F00038DAA1 /* Info.plist */,
+			);
+			path = SweetCornTests;
+			sourceTree = "<group>";
+		};
+		A100C76E1E65C2F00038DAA1 /* SweetCornUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A100C76F1E65C2F00038DAA1 /* SweetCornUITests.swift */,
+				A100C7711E65C2F00038DAA1 /* Info.plist */,
+			);
+			path = SweetCornUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A100C74B1E65C2F00038DAA1 /* SweetCorn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100C7741E65C2F00038DAA1 /* Build configuration list for PBXNativeTarget "SweetCorn" */;
+			buildPhases = (
+				A100C7481E65C2F00038DAA1 /* Sources */,
+				A100C7491E65C2F00038DAA1 /* Frameworks */,
+				A100C74A1E65C2F00038DAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetCorn;
+			productName = SweetCorn;
+			productReference = A100C74C1E65C2F00038DAA1 /* SweetCorn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A100C75F1E65C2F00038DAA1 /* SweetCornTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100C7771E65C2F00038DAA1 /* Build configuration list for PBXNativeTarget "SweetCornTests" */;
+			buildPhases = (
+				A100C75C1E65C2F00038DAA1 /* Sources */,
+				A100C75D1E65C2F00038DAA1 /* Frameworks */,
+				A100C75E1E65C2F00038DAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A100C7621E65C2F00038DAA1 /* PBXTargetDependency */,
+			);
+			name = SweetCornTests;
+			productName = SweetCornTests;
+			productReference = A100C7601E65C2F00038DAA1 /* SweetCornTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A100C76A1E65C2F00038DAA1 /* SweetCornUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100C77A1E65C2F00038DAA1 /* Build configuration list for PBXNativeTarget "SweetCornUITests" */;
+			buildPhases = (
+				A100C7671E65C2F00038DAA1 /* Sources */,
+				A100C7681E65C2F00038DAA1 /* Frameworks */,
+				A100C7691E65C2F00038DAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A100C76D1E65C2F00038DAA1 /* PBXTargetDependency */,
+			);
+			name = SweetCornUITests;
+			productName = SweetCornUITests;
+			productReference = A100C76B1E65C2F00038DAA1 /* SweetCornUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A100C7441E65C2F00038DAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "SweetCorn Inc";
+				TargetAttributes = {
+					A100C74B1E65C2F00038DAA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A100C75F1E65C2F00038DAA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A100C74B1E65C2F00038DAA1;
+					};
+					A100C76A1E65C2F00038DAA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A100C74B1E65C2F00038DAA1;
+					};
+				};
+			};
+			buildConfigurationList = A100C7471E65C2F00038DAA1 /* Build configuration list for PBXProject "SweetCorn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A100C7431E65C2F00038DAA1;
+			productRefGroup = A100C74D1E65C2F00038DAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A100C74B1E65C2F00038DAA1 /* SweetCorn */,
+				A100C75F1E65C2F00038DAA1 /* SweetCornTests */,
+				A100C76A1E65C2F00038DAA1 /* SweetCornUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A100C74A1E65C2F00038DAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100C75A1E65C2F00038DAA1 /* LaunchScreen.storyboard in Resources */,
+				A100C7571E65C2F00038DAA1 /* Assets.xcassets in Resources */,
+				A100C7551E65C2F00038DAA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100C75E1E65C2F00038DAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100C7691E65C2F00038DAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A100C7481E65C2F00038DAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100C7521E65C2F00038DAA1 /* ViewController.swift in Sources */,
+				A100C7501E65C2F00038DAA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100C75C1E65C2F00038DAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100C7651E65C2F00038DAA1 /* SweetCornTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A100C7671E65C2F00038DAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100C7701E65C2F00038DAA1 /* SweetCornUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A100C7621E65C2F00038DAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A100C74B1E65C2F00038DAA1 /* SweetCorn */;
+			targetProxy = A100C7611E65C2F00038DAA1 /* PBXContainerItemProxy */;
+		};
+		A100C76D1E65C2F00038DAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A100C74B1E65C2F00038DAA1 /* SweetCorn */;
+			targetProxy = A100C76C1E65C2F00038DAA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A100C7531E65C2F00038DAA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A100C7541E65C2F00038DAA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A100C7581E65C2F00038DAA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A100C7591E65C2F00038DAA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A100C7721E65C2F00038DAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A100C7731E65C2F00038DAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A100C7751E65C2F00038DAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SweetCorn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetcornusa.SweetCorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A100C7761E65C2F00038DAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SweetCorn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetcornusa.SweetCorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A100C7781E65C2F00038DAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SweetCornTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetcornusa.SweetCornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetCorn.app/SweetCorn";
+			};
+			name = Debug;
+		};
+		A100C7791E65C2F00038DAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SweetCornTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetcornusa.SweetCornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetCorn.app/SweetCorn";
+			};
+			name = Release;
+		};
+		A100C77B1E65C2F00038DAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SweetCornUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetcornusa.SweetCornUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SweetCorn;
+			};
+			name = Debug;
+		};
+		A100C77C1E65C2F00038DAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SweetCornUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweetcornusa.SweetCornUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SweetCorn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A100C7471E65C2F00038DAA1 /* Build configuration list for PBXProject "SweetCorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100C7721E65C2F00038DAA1 /* Debug */,
+				A100C7731E65C2F00038DAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A100C7741E65C2F00038DAA1 /* Build configuration list for PBXNativeTarget "SweetCorn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100C7751E65C2F00038DAA1 /* Debug */,
+				A100C7761E65C2F00038DAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A100C7771E65C2F00038DAA1 /* Build configuration list for PBXNativeTarget "SweetCornTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100C7781E65C2F00038DAA1 /* Debug */,
+				A100C7791E65C2F00038DAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A100C77A1E65C2F00038DAA1 /* Build configuration list for PBXNativeTarget "SweetCornUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100C77B1E65C2F00038DAA1 /* Debug */,
+				A100C77C1E65C2F00038DAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A100C7441E65C2F00038DAA1 /* Project object */;
+}
