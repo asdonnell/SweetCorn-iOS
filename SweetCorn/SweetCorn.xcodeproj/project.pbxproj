@@ -10,10 +10,12 @@
 		A100C7501E65C2F00038DAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C74F1E65C2F00038DAA1 /* AppDelegate.swift */; };
 		A100C7521E65C2F00038DAA1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C7511E65C2F00038DAA1 /* LoginViewController.swift */; };
 		A100C7551E65C2F00038DAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100C7531E65C2F00038DAA1 /* Main.storyboard */; };
-		A100C7571E65C2F00038DAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100C7561E65C2F00038DAA1 /* Assets.xcassets */; };
 		A100C75A1E65C2F00038DAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100C7581E65C2F00038DAA1 /* LaunchScreen.storyboard */; };
 		A100C7651E65C2F00038DAA1 /* SweetCornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C7641E65C2F00038DAA1 /* SweetCornTests.swift */; };
 		A100C7701E65C2F00038DAA1 /* SweetCornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C76F1E65C2F00038DAA1 /* SweetCornUITests.swift */; };
+		A100C7801E660A930038DAA1 /* BadgeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C77F1E660A930038DAA1 /* BadgeInfoViewController.swift */; };
+		A100C7821E6612DA0038DAA1 /* BadgeSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100C7811E6612DA0038DAA1 /* BadgeSelectorViewController.swift */; };
+		A11A023C1E6629AF003A9A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11A023B1E6629AF003A9A45 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		A100C74F1E65C2F00038DAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A100C7511E65C2F00038DAA1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A100C7541E65C2F00038DAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A100C7561E65C2F00038DAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A100C7591E65C2F00038DAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A100C75B1E65C2F00038DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A100C7601E65C2F00038DAA1 /* SweetCornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetCornTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,9 @@
 		A100C76B1E65C2F00038DAA1 /* SweetCornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetCornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A100C76F1E65C2F00038DAA1 /* SweetCornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetCornUITests.swift; sourceTree = "<group>"; };
 		A100C7711E65C2F00038DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A100C77F1E660A930038DAA1 /* BadgeInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeInfoViewController.swift; sourceTree = "<group>"; };
+		A100C7811E6612DA0038DAA1 /* BadgeSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSelectorViewController.swift; sourceTree = "<group>"; };
+		A11A023B1E6629AF003A9A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,12 @@
 		A100C74E1E65C2F00038DAA1 /* SweetCorn */ = {
 			isa = PBXGroup;
 			children = (
+				A11A023B1E6629AF003A9A45 /* Assets.xcassets */,
 				A100C74F1E65C2F00038DAA1 /* AppDelegate.swift */,
 				A100C7511E65C2F00038DAA1 /* LoginViewController.swift */,
+				A100C77F1E660A930038DAA1 /* BadgeInfoViewController.swift */,
+				A100C7811E6612DA0038DAA1 /* BadgeSelectorViewController.swift */,
 				A100C7531E65C2F00038DAA1 /* Main.storyboard */,
-				A100C7561E65C2F00038DAA1 /* Assets.xcassets */,
 				A100C7581E65C2F00038DAA1 /* LaunchScreen.storyboard */,
 				A100C75B1E65C2F00038DAA1 /* Info.plist */,
 			);
@@ -233,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A100C75A1E65C2F00038DAA1 /* LaunchScreen.storyboard in Resources */,
-				A100C7571E65C2F00038DAA1 /* Assets.xcassets in Resources */,
+				A11A023C1E6629AF003A9A45 /* Assets.xcassets in Resources */,
 				A100C7551E65C2F00038DAA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A100C7521E65C2F00038DAA1 /* LoginViewController.swift in Sources */,
+				A100C7821E6612DA0038DAA1 /* BadgeSelectorViewController.swift in Sources */,
+				A100C7801E660A930038DAA1 /* BadgeInfoViewController.swift in Sources */,
 				A100C7501E65C2F00038DAA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +511,7 @@
 				A100C7761E65C2F00038DAA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A100C7771E65C2F00038DAA1 /* Build configuration list for PBXNativeTarget "SweetCornTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				A100C7791E65C2F00038DAA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A100C77A1E65C2F00038DAA1 /* Build configuration list for PBXNativeTarget "SweetCornUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				A100C77C1E65C2F00038DAA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
